@@ -23,7 +23,7 @@
     font: inherit;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid orangered;
+    border: 1px solid #3c9c97;
     padding: 0.5rem 2rem;
     border-radius: 25px;
     margin-left: 1rem;
@@ -31,16 +31,16 @@
   
   .actions button:hover,
   .actions button:active {
-    background-color:darkred;
-    border-color: orangered;
+    background-color:#3c9c97;
+    border-color: #3c9c97;
     color: white;
   }
   
   .actions .button--alt {
-    color: orangered;
+    color:#3c9c97;
   }
   
   .actions .button {
-    background-color: orangered;
+    background-color:#3c9c97;
     color: white;
   }

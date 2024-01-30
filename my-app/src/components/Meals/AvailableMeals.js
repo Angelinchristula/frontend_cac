@@ -11,27 +11,38 @@ const DUMMY_MEALS = [
   {
     id: "m2",
     name: "Fried chicken",
-    price: 299,
+    price: 210,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
   },
   {
     id: "m3",
     name: "Barbecue Burger",
     price: 370,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
   },
   {
     id: "m4",
     name: "Panneer Pizza",
-    price: 480,
+    price: 280,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
   },
   {
     id: "m5",
     name: "Momos",
     price: 90,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
   },
   {
     id: "m6",
     name: "Creamy Cheesy Pasta",
     price: 229,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
+  },
+  {
+    id: "m7",
+    name: "Chicken Biriyani",
+    price: 250,
+    img: "https://images.app.goo.gl/bKrrKh7HXqBSEHtv7",
   }
 ];
 
@@ -43,6 +54,7 @@ const AvailableMeals = () => {
       name={meal.name}
       description={meal.description}
       price={meal.price}
+      img={meal.img}
     />
   ));
 
