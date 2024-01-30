@@ -6,27 +6,33 @@ const DUMMY_MEALS = [
   {
     id: "m1",
     name: "Hamburger",
-    description: "The Classic Burger",
-    price: 22.99,
+    price: 250,
   },
   {
     id: "m2",
     name: "Fried chicken",
-    description: "Special crispy chicken.",
-    price: 16.5,
+    price: 299,
   },
   {
     id: "m3",
     name: "Barbecue Burger",
-    description: "American, raw, meaty",
-    price: 12.99,
+    price: 370,
   },
   {
     id: "m4",
-    name: "Green Bowl",
-    description: "Healthy...and green...",
-    price: 18.99,
+    name: "Panneer Pizza",
+    price: 480,
   },
+  {
+    id: "m5",
+    name: "Momos",
+    price: 90,
+  },
+  {
+    id: "m6",
+    name: "Creamy Cheesy Pasta",
+    price: 229,
+  }
 ];
 
 const AvailableMeals = () => {
